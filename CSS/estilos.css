@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.imagen1{
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 600px;
+}
+.caja1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+    height: 80px;
+	background: darkblue;
+	margin-top: 2%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+	margin-left: 2%;
+	margin-right: 2%;
+    color: white;
+}
+.titulo{
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Hahmlet', serif;
+}
+.subtitulo{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.imagen2{
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 600px;
+}
+.texto{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 40%;
+    text-align: center;
+}
+.caja2{
+    margin-top: 2%;
+    margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+    height: 80px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid lightblue;
+    border-radius: 5px;;
+}
+footer{
+    color: white;
+    font-size: 150%;
+}
+
+
+
+
+
+@media screen and (max-width: 450px){
+    .imagen1{
+        width: 100%;
+        height: 400px;
+    }
+    .caja1{
+        width: 100%;
+    }
+    .imagen2{
+        width: 50%;
+        height: 200px;
+    }
+    .titulo{
+        font-size: 200%;
+    }
+    .subtitulo{
+        font-size: 100%;
+    }
+    .caja2{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 720px){
+    .imagen1{
+        height: 500px;
+    }  
+    .titulo{
+        font-size: 150%;
+    }
+    .subtitulo{
+        font-size: 100%;
+    }  
+    .imagen2{
+        height: 300px;
+    }  
+    .caja2{
+        text-align: center;
+    } 
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .imagen1{
+        height: 500px;
+    }
+    .subtitulo{
+        font-size: 100%;
+    }  
+    .imagen2{
+        height: 300px;
+    }  
+    .caja2{
+        text-align: center;
+    } 
+}
